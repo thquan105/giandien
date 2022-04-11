@@ -34,6 +34,10 @@ public class SimpleCalculator extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jTextField3 = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Simple Calculator");
@@ -60,6 +64,27 @@ public class SimpleCalculator extends javax.swing.JFrame {
         jPanel2.add(jTextField3);
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.CENTER);
+
+        jPanel1.setMaximumSize(new java.awt.Dimension(10000, 10000));
+        jPanel1.setMinimumSize(new java.awt.Dimension(338, 110));
+        jPanel1.setName("110"); // NOI18N
+
+        jButton1.setText("+");
+        jButton1.setPreferredSize(new java.awt.Dimension(30, 30));
+        jPanel1.add(jButton1);
+
+        jButton2.setText("-");
+        jButton2.setPreferredSize(new java.awt.Dimension(30, 30));
+        jPanel1.add(jButton2);
+
+        jButton3.setText("*");
+        jButton3.setPreferredSize(new java.awt.Dimension(30, 30));
+        jPanel1.add(jButton3);
+
+        jButton4.setText(":");
+        jButton4.setPreferredSize(new java.awt.Dimension(30, 30));
+        jPanel1.add(jButton4);
+
         getContentPane().add(jPanel1, java.awt.BorderLayout.PAGE_END);
 
         pack();
@@ -105,6 +130,10 @@ public class SimpleCalculator extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
