@@ -41,6 +41,8 @@ public class SimpleCalculator extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Simple Calculator");
+        setMinimumSize(new java.awt.Dimension(350, 250));
+        setName("400"); // NOI18N
 
         jPanel2.setLayout(new java.awt.GridLayout(3, 0, 5, 5));
 
